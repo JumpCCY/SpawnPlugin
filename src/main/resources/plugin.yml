@@ -1,0 +1,11 @@
+name: Spawnplugin
+version: '${project.version}'
+main: com.jumpccy.spawnplugin.spawnPlugin
+api-version: 1.19
+authors: [ JumpCCY ]
+commands:
+  setspawn:
+    description: set spawn point
+  spawn:
+    description: teleports player to spawn
+    aliases: [hub, l]
